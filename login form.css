@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.card{
+    padding: 60px 60px 60px 60px;
+    background-color: rgb(216, 11, 107);
+    border-radius: 10px;
+    }
+    #name{
+        border-radius: 10px;
+        width: 200px;
+        letter-spacing: normal;
+        background: rgb(112, 28, 112);
+        color: rgb(17, 11, 11);
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        }
+#button{
+background: rgb(9, 190, 91);
+color: rgb(244, 246, 247);
+padding: 10px;
+margin-bottom: 10px;
+margin-top: 20px;
+border-radius: 20px;
+margin-left: 70px;
+}
+#button:hover{
+background-color: rgb(146, 11, 11);
+color: black;
+cursor: progress;
+}
